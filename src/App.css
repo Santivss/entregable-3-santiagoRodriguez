@@ -1,0 +1,39 @@
+
+.resident-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1480px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem 0 ;
+}
+
+.title_container {
+    background-color: #062226;
+    height: 10rem;
+    width: 30rem;
+    margin: 0 auto;
+}
+
+.btn, .form {
+    margin: 10px auto;
+}
+
+
+.form {
+    text-align: center;
+}
+
+.input {
+    width: 200px;
+    display: inline-block;
+}
+
+.inp {
+    text-decoration: none;
+}

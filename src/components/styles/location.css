@@ -1,0 +1,28 @@
+.sup {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.image_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image3 {
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.image2 {
+    width: 400px;
+    position: absolute;
+    margin: auto;
+    transition: 0.3s ease;
+}
+
+.image2:hover {
+    transform: scale(1.025);
+    transition: 0.3s ease;
+}

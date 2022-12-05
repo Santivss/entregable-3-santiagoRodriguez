@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto:ital,wght@1,500&display=swap');
+
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    width: 100%;
+    max-width: 270px;
+    border-radius: 0.5em;
+    overflow: hidden;
+    border: 1px solid rgb(52, 79, 110);
+    transition: 0.3s ease;
+
+}
+
+.Alive {
+    background-color:green;
+}
+
+.Dead {
+    background-color: red;
+}
+
+.unknown {
+    background-color: rgb(96, 96, 96);
+}
+
+.card:hover {
+    transform: scale(1.03);
+    transition: 0.3s ease;
+
+    box-shadow: -1px 1px 34px -6px rgba(17,101,199,0.8);
+    -webkit-box-shadow: -1px 1px 34px -6px rgba(212 39% 26% / 0.76);
+    -moz-box-shadow: -1px 1px 34px -6px rgba(212 39% 26% / 0.76);
+}
+
+.card_header {
+    width: 100%;
+    aspect-ratio: 1;
+    position: relative;
+}
+
+.card_avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card_circle-container {
+    position: absolute;
+    top: 5px;
+    width: 35%;
+    background-color: #062226;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius:  0 7px 7px 0;
+    color: white;
+    padding: 5px 0 5px 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card_circle {
+    width: 10px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.card_body {
+    padding: 15px;
+    background-color: #062226;
+    color: white;
+}
+
+.card_name {
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 0.7em;
+}
+
+.card_item-label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: rgb(195, 195, 195);
+    margin-bottom: 0.05rem;
+    opacity: 70%;
+    position: relative;
+    left: 0.8em;
+}
+
+.card_item {
+    display: grid;
+    gap: 0.3em;
+}
+
